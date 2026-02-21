@@ -139,6 +139,8 @@ in
       environment = {
         HOME = cfg.workspaceDir;
         SIYUAN_WORKING_DIR = "${cfg.package}/share/siyuan/resources";
+        RUN_IN_CONTAINER = "true";
+        SIYUAN_ACCESS_AUTH_CODE_BYPASS = "true";
       };
 
       serviceConfig = {
